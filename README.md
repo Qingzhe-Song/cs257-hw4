@@ -1,9 +1,9 @@
-I completed everything from Chapters 7, 8, and 9.
+I completed everything in chapters 3, 4, and 10.
 
-A brief description of what I did:
+When you start the world, choose the "Terrain" scene, as all the work was done there.
 
-For Chapter 7, the Player now has a capsule collider and uses physics-based movement for better interactions with walls.
+You can see the terrain I built and the ProBuilder frame I left near the base. I kept the frame after building the base to show that I used ProBuilder.
 
-For Chapter 8, there are two additional scenes for winning and losing. The GameMode empty object contains the code for switching scenes. One of the losing conditions is the destruction of the base. Inside the house on the right, there is a pillar that enemies move toward and shoot when the player is not in sight. Once the pillar's health reaches zero, the game switches to the lose scene, which contains a large cube to represent defeat. The win scene contains a large sphere to represent victory.
+Since the base is built in the Terrain scene, I also imported the robot and the appropriate base asset into that scene. The lake around the base uses a water shader with animated ripples.
 
-For Chapter 9, enemies now use a finite state machine to control their behavior and navigation. A NavMesh has also been added to the house floor and extends onto the road outside.
+I put the Water Shader Graph in the Shaders folder. I also have my own texture in the Textures folder.
